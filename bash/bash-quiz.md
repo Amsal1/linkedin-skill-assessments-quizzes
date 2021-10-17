@@ -764,3 +764,22 @@ fi
 - [ ] It removes all files except those in the current directory.
 - [x] It removes all files in the current directory.
 - [ ] It removes all files except those in the 'foo' directory.
+
+#### Q61. To make a Bash script named script.sh executable, what should you run?
+
+- [ ] bash script.sh
+- [ ] exec script.sh
+- [ ] source script.sh
+- [x] chmod +x script.sh
+
+#### Q62. What is the difference between these two conditional expressions?
+
+```
+[[ $A == $B ]]
+[[ $A -eq $B ]]
+```
+
+- [ ] [[ $A == $B ]] is used for text comparisions whereas [[ $a -eq $B ]] is used for numeric comparisions.
+- [ ] [[ $A == $B ]] is used for numeric comparisions whereas [[ $a -eq $B ]] is used for text comparisions.
+- [ ] [[ $A == $B ]] is the new way of doing comparisions whereas [[ $a -eq $B ]] is the legacy syntax.
+- [ ] They are the same.
